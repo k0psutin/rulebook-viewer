@@ -26,7 +26,9 @@ const fetchText = async (url) => {
     return testData
   }
 
-  const result = await fetch(url).then((res) => res)
+  const corsProxy = process.env.REACT_APP_CORS_PROXY
+
+  const result = await fetch(`${corsProxy}${url}`).then((res) => res)
 
   if (result.status >= 400 && result.status < 600) {
     throw new Error('Invalid url.')
