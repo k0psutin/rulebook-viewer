@@ -1,0 +1,182 @@
+h2 {
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.url {
+  width: 27%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.padded {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.linkPadding {
+  padding: 1%;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+  padding-left: 2%;
+}
+
+.app {
+  text-align: center; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.float-container {
+  padding: 0%;
+}
+
+.float-left {
+  width: 40%;
+  float: left;
+  padding-left: 20%;
+}
+
+.float-right {
+  width: 60%;
+  float: right;
+  padding-right: 10%;
+}
+
+.entry {
+  text-align: left;
+  border-radius: 5px;
+  border-color: black;
+  color:black;
+  background-color: transparent;
+  border-width: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.activeEntry {
+  background-color: black;
+  color: white;
+}
+
+.entryLink {
+  text-align: left;
+  border-radius: 0px;
+  border-color: black;
+  color:black;
+  background-color: transparent;
+  border-width: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.refLink {
+  color: black;
+  font-weight: bold;
+}
+
+.button {
+  width: 10%;
+  border-radius: 5px;
+  padding: 1% 2%;
+  text-align: middle;
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+  transition-duration: 0.4s;
+  border: none;
+}
+
+.error {
+  width: 100%;
+  padding: 1%;
+  background-color: red;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.success {
+  width: 100%;
+  padding: 1%;
+  background-color: green;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.noerror {
+  width: 100%;
+  padding: 1%;
+}
+
+.urlButton {
+  width: 10%;
+  height: 1%;
+  border-radius: 5px;
+  text-align: middle;
+  text-decoration: none;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.urlButtonActive {
+  width: 10%;
+  height: 1%;
+  border-radius: 5px;
+  text-align: middle;
+  text-decoration: none;
+  display: inline-block;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.entry {
+  transition-duration: 0.4s;
+}
+
+.entry:hover {
+  background-color: black;
+  color: white;
+}
+
+.rule {
+  padding: 1%;
+  text-align: left;
+  text-shadow: black;
+  background-color: transparent;
+  color: black;
+  margin: auto;
+  border: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
