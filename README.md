@@ -2,6 +2,8 @@
 
 Reaktor junior developer assignment 2021.
 
+Heroku - [http://rulebook-viewer.herokuapp.com/](http://rulebook-viewer.herokuapp.com/)
+
 ## Description
 
 Rulebook viewer parses Magic the Gathering game rules from a text file to a interactive web application.
